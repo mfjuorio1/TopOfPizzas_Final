@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Impact';
+    src: url('impact.ttf') format('truetype');
+  }
+  
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
-   
+   font-family: 'Impact', sans-serif;
     background-color: rgb(211, 115, 6);
     /*background-image:url(./img/p1.jpeg);*/
     /*background-color opacity: 0.7;*/
@@ -165,5 +170,5 @@ justify-content:center;
 
 footer{
     font-family: Impact,sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }

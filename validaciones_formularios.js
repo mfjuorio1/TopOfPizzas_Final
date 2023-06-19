@@ -93,24 +93,24 @@ export default function bookingFormValidations() {
     //}
 
     
-
-d.addEventListener("submit",e=>{
-        e.preventDefault();
-        alert("Enviando Formulario");
+//esto no funciona
+// d.addEventListener("submit",e=>{
+//         e.preventDefault();
+//         alert("Enviando Formulario");
     
-const $loader=d.querySelector("booking-form-loader"),
-    $response=d.querySelector("booking-form-response");
+// const $loader=d.querySelector("booking-form-loader"),
+//     $response=d.querySelector("booking-form-response");
 
-    $loader.classList.remove("none");
+//     $loader.classList.remove("none");
 
-    setTimeout(()=>{
-        $loader.classList.add("none");
-        $response.classList.remove("none");
-        $form.reset();
+//     setTimeout(()=>{
+//         $loader.classList.add("none");
+//         $response.classList.remove("none");
+//         $form.reset();
 
-        setTimeout(()=>$response.classList.add("none"),3000);
-    },3000);
-});
+//         setTimeout(()=>$response.classList.add("none"),3000);
+//     },3000);
+// });
 }
 
 
