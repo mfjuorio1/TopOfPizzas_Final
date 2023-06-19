@@ -8,7 +8,7 @@
 body{
   /*background-image: url();*/
   background-image:url(./img/1309914.jpg);
-  font-family: 'Impact', sans-serif;
+  font-family: url(./img/impact.ttf);;
   /*No entiendo por qué no me lo levanta acá, pero en cambio en style-carousel.css sí, y se ven ENORMES*/
   /*background-size: cover;*/
   /*background-repeat: no-repeat;*/
