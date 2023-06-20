@@ -1,13 +1,10 @@
-@font-face {
-    font-family: 'Impact';
-    src: url('https://github.com/MicrosoftDocs/typography/blob/live/typographydocs/font-list/impact.md') format('truetype');
-  }
+
 
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'Impact', sans-serif;
+    font-family: 'Anton', sans-serif;
     background-color: rgb(211, 115, 6);
     
 }
@@ -16,7 +13,7 @@ body{
 display: flex;
 justify-content: center;
 size: 25px;
-border-radius: 25%;
+border-radius: 30%;
 }
 
 
@@ -28,6 +25,7 @@ border-radius: 25%;
 }
 
 h1 {
+    font-family: 'Anton', sans-serif;
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
@@ -46,7 +44,7 @@ h1 {
   }
   
   h1, h2, h3, p {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;;
     text-align: center;
     /*font-weight: bold;*/
   }
@@ -81,7 +79,7 @@ h1 {
 }
 
 .slide h4 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: rgb(15, 15, 15);
@@ -171,7 +169,7 @@ justify-content:center;
 }
 
 footer, .address{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 15px;
 }
 
@@ -227,7 +225,7 @@ h1 {
   }
   
   h1, h2, h3, p {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Anton', sans-serif;
     /*font-weight: bold;*/
     text-align: center;
   }
@@ -262,7 +260,7 @@ h1 {
 }
 
 .slide h4 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 30px;
     /*font-weight: bold;*/
     color: rgb(15, 15, 15);
@@ -352,7 +350,7 @@ justify-content:center;
 }
 
 footer, .address{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 15px;
 }
 

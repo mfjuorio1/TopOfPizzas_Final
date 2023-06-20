@@ -1,17 +1,7 @@
 
-@font-face {
-  font-family: 'Impact';
-  src: url('impact.ttf') format('truetype');
-}
-
 
 body{
-  /*background-image: url();*/
-  background-image:url(./img/1309914.jpg);
-  font-family: url(./img/impact.ttf);;
-  /*No entiendo por qué no me lo levanta acá, pero en cambio en style-carousel.css sí, y se ven ENORMES*/
-  /*background-size: cover;*/
-  /*background-repeat: no-repeat;*/
+  font-family:'Anton', sans-serif;
 }
 
 .contact {
@@ -38,7 +28,7 @@ body{
   }
 
   h1, h2 {
-    font-family:Impact;
+    font-family:'Anton', sans-serif;
   }
   
   .menu {
@@ -75,77 +65,6 @@ display:inline-block;
     display: none;
   }
 
-  /*****Responsive Slider Jon Mircha ****/
-  
-  /*.header {
-    z-index: 997;
-  }
-  .slider {
-    position: relative;
-    width: 80%;
-    margin:1rem auto;
-    text-align: center;
-    /*animation: slide 15s infinite;
-  }
-
-.slider-slides {
-  position: relative;
-  height: 400px;
-  /*animation: slide 15s infinite;
-}
-
-.slider-slide {
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 100%;
-  opacity:0;
-  visibility: hidden;
-  transition: opacity 1s ease;
-  /*animation: slide 15s infinite;
-}
-
-.slider-slide img {
-  height: inherit;
-  width: inherit;
-  object-fit: cover;
-  object-position: 50% 50%;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-  /*animation: slide 15s infinite;
-}
-.slider-slide.active {
-  opacity:1;
-  visibility: visible;
-  /*animation: slide 15s infinite;
-}
-
-.slider-btns{
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  display:flex;
-  justify-content: space-between;
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.slider a{
-display:block;
-width: 4rem;
-height: 4rem;
-border-radius: 50%;
-border:thin solid #000;
-text-decoration: none;
-background-color:transparent;
-color:#000;
-transition: all 0.3s ease;
-}
-
-.slider a:hover {
-  color:#4d4d4d;
-}*/
-
 .gallery {
   display: flex;
   flex-direction: row;
@@ -174,7 +93,7 @@ transition: all 0.3s ease;
   }
 
    .header {
-    font-family: Roboto, sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 15px;
     padding: 10px 20 px; 
     border-radius: 5px;
@@ -185,6 +104,5 @@ transition: all 0.3s ease;
 }
 
 footer{
-  background-image:url(img/1309914.jpg);
   background-size: 35%;
 }
