@@ -9,6 +9,13 @@ body{
     
 }
 
+.span {
+display:inline-flex;
+justify-content: center;
+position:space-between;
+cursor:pointer;
+}
+
 .maps {
 display: flex;
 justify-content: center;
@@ -44,7 +51,7 @@ h1 {
   }
   
   h1, h2, h3, p {
-    font-family: 'Anton', sans-serif;;
+    font-family: 'Anton', sans-serif;
     text-align: center;
     /*font-weight: bold;*/
   }
@@ -183,7 +190,7 @@ footer, .address{
     display: inline-flexbox;
     justify-content: center;
     margin-left: 18%;
-}body{
+/*}body{
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -225,7 +232,7 @@ h1 {
   }
   
   h1, h2, h3, p {
-    font-family:'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
     /*font-weight: bold;*/
     text-align: center;
   }
@@ -365,3 +372,8 @@ footer, .address{
     justify-content: center;
     margin-left: 18%;
 }
+
+a:visited {
+    color: burlywood;
+  }
+  

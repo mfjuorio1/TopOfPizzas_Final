@@ -106,3 +106,7 @@ display:inline-block;
 footer{
   background-size: 35%;
 }
+
+a:visited {
+  color: burlywood;
+}

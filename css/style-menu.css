@@ -14,7 +14,7 @@ body{
 }
 
 .contact {
-    font-family: Anton, sans-serif;
+    font-family: 'Anton', sans-serif;
     padding: 20px;
   }
   
@@ -38,7 +38,7 @@ body{
   }
 
   h1, h2 {
-    font-family:Impact;
+    font-family:'Anton', sans-serif;
   }
   
   .menu {
@@ -85,7 +85,7 @@ display:inline-block;
   gap: 16px;
   max-width: 2500px;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 10px 10px;
 }
 
 .gallery img {
@@ -105,7 +105,7 @@ display:inline-block;
   }
 
    .header {
-    font-family: Roboto, sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 15px;
     padding: 10px 20 px; 
     border-radius: 5px;
@@ -128,6 +128,10 @@ zoom:200%;
     }
 
 footer{
-    font-family: Impact,sans-serif;
+    font-family: 'Anton',sans-serif;
     font-size: small;
+}
+
+a:visited {
+  color: burlywood;
 }

@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./css/style-menu.css">
+
     <link rel="icon" type="image/x-icon" href="./img/favicon-sliceplusgreen.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/5aab645885.js" crossorigin="anonymous"></script>
 
     <title>TopOfPizzas</title>
@@ -17,15 +21,46 @@
     <h1>TopOfPizzas</h1>
     <h2>Pizzas de todo el mundo</h2>
     <header>
-        <nav>
+      <nav>
+        <span id="btn" class="boton_tag">Inicio</span>
+        <script>
+            document.getElementById("btn").addEventListener("click",e=>{
+                window.location.href = "index.html"
+            })
+        </script>
+        
+        <span id="btn2" class="boton_tag" style="background-color: green; color:white">Menu</span>
+        <script>
+        document.getElementById("btn2").addEventListener("click",e=>{
+            window.location.href = "menu.html"
+        })
+        </script>
+        <!--</p>-->
+        <span id="btn3" class="boton_tag" style="background-color: white; color:green">Pizzas</span>
+        <script>
+            document.getElementById("btn3").addEventListener("click",e=>{
+                window.location.href = "pizzas.html"
+            })
+        </script>
+        <!--</p>-->
+        <span id="btn4" class="boton_tag" style="background-color: red; color: white">Reservas</span>
+        <script>
+        document.getElementById("btn4").addEventListener("click",e=>{
+            window.location.href = "reservas_con_carrousel.html"
+        })
+        </script>
+      
+      </nav>
+      <!--<nav>
                 <a style="background-color: green; color:white" href="index.html">INICIO</a>
                 <a style="background-color: white; color:green" href="menu.html">MENU</a>
-                <a style="background-color: red; color: white" href="reservas con carrousel.html">RESERVAS</a>
-        </nav>
+                <a style="background-color: red; color: white" href="reservas_con_carrousel.html">RESERVAS</a>
+        </nav>-->
     </header>
     <h2 id="title">MENU</h2>
+    <!--API que habla, no funciona en todos los navegadores igual-->
     <script>
-      let texto = "......Hola!...si haces click en Pizzas....verás las Pizzas de todo el mundo... vengan a visitarnos y disfruten"
+      let texto = "     Hola!...si haces click en Pizzas....verás las Pizzas de todo el mundo... vengan a visitarnos y disfruten"
       const hablar = (texto) => speechSynthesis.
       speak(new SpeechSynthesisUtterance(texto));
 
@@ -88,11 +123,11 @@
         <hr class="bottom-line">
         <footer>
           <p>
-            <a href="https://mfjuorio1.github.io/topofpizzas-/" target="_blank">Visita nuestra página</a>
+            <a href="https://mfjuorio1.github.io/TopOfPizzas_final/" target="_blank">Visita nuestra página</a>
             <!--este link es el del repositorio final. Faltan iconos de las redes sociales-->
             <a href="contact.html">Contacto</a>
           </p>
-          <p class="address">4321 Rosario - Buenos Aires - Argentina</p>
+          <p class="address">Puerto Madero - Buenos Aires - Argentina</p>
           <p>TopOfPizzas  - Codo a codo - 2023&copy;</p>
         </footer>
       </div>

@@ -4,28 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./css/style-index.css">
+    
+    <link rel="icon" type="image/x-icon" href="./img/favicon-sliceplusgreen.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <title>TopOfPizzas</title>
-    <link rel="icon" type="image/x-icon" href="./img/favicon-sliceplusgreen.ico">
+
     <script src="https://kit.fontawesome.com/5aab645885.js" crossorigin="anonymous"></script>
-    <!--<link rel="api" href="/javascript/consumirAPI.js">-->
+
+    
+    <title>TopOfPizzas</title>
+    <!--<link rel="api" href="/javascript/consumirAPI.js" despues de varios intentos, sigue sin salir>-->
     </head>
     
 <body>
     <h1>TopOfPizzas</h1>
     <h2>Pizzas de todo el mundo</h2>
     <header>
+        <!--nuevo menu de navegacion-->
         <nav>
-                <a style="background-color: green; color:white" href="index.html">INICIO</a>
+            <span id="btn" class="boton_tag">Inicio</span>
+            <script>
+                document.getElementById("btn").addEventListener("click",e=>{
+                    window.location.href = "index.html"
+                })
+            </script>
+            
+            <span id="btn2" class="boton_tag" style="background-color: green; color:white">Menu</span>
+            <script>
+            document.getElementById("btn2").addEventListener("click",e=>{
+                window.location.href = "menu.html"
+            })
+            </script>
+            <!--</p>-->
+            <span id="btn3" class="boton_tag" style="background-color: white; color:green">Pizzas</span>
+            <script>
+                document.getElementById("btn3").addEventListener("click",e=>{
+                    window.location.href = "pizzas.html"
+                })
+            </script>
+            <!--</p>-->
+            <span id="btn4" class="boton_tag" style="background-color: red; color: white">Reservas</span>
+            <script>
+            document.getElementById("btn4").addEventListener("click",e=>{
+                window.location.href = "reservas_con_carrousel.html"
+            })
+            </script>
+            <!--vieja barra de navegacion-->
+            
+            <!--<a style="background-color: green; color:white" href="index.html">INICIO</a>
                 <a style="background-color: white; color:green" href="menu.html">MENU</a>
-                <a style="background-color: red; color: white" href="reservas con carrousel.html">RESERVAS</a>
+                <a style="background-color: red; color: white" href="reservas_con_carrousel.html">RESERVAS</a>-->
         </nav>
     </header>
         <main class="general">
-             <h2>BIENVENIDOS!</h2>
+             <h2>¡BIENVENIDOS!</h2>
+             <!--API que habla, no funciona en todos los navegadores igual-->
              <script>
                 let texto = "                Hola!...Bienvenidos a Top Of Pizzas....Pizzas de todo el mundo... vengan a visitarnos y disfruten"
                 const hablar = (texto) => speechSynthesis.
@@ -49,7 +86,7 @@
                     <img src="./img/fabrizio-pullara-vHRFraV4U00-unsplash.jpg" alt="en el horno">
                   </div>
                   <div class="slide" >
-                    <h2>TE ESTAMOS ESPERANDO!</h2>
+                    <h2>¡TE ESTAMOS ESPERANDO!</h2>
                     <p>Lorem ipsum dolor sit amet.</p>
                     <img src="img/p1.jpeg" alt="con jamon">
                   </div>
@@ -95,7 +132,7 @@
             </div>
             <br><br>
              <div class="maps">
-
+            <!--la geolocalizacion permite ver el restaurante como si existiera en Puerto Madero-->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.46127303701894!2d-58.35980300000001!3d-34.61199500000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d81d3ee781%3A0x6cee34f0becbc441!2sAzucena%20Villaflor%20640%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1687273188465!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
              </div>
@@ -104,13 +141,13 @@
             </main>
             <footer>
                 <p class="footer">
-                    <a href="https://mfjuorio1.github.io/topofpizzas-/" target="_blank">Visita nuestra página</a>
+                    <a href="https://mfjuorio1.github.io/TopOfPizzas_final/" target="_blank">Visita nuestra página</a>
                     
                     <a href="contact.html">Contacto</a>
                   </p>
                   <p class="address">Puerto Madero - Buenos Aires - Argentina</p>
         <div class="redes1">
-            
+            <!--accesos falsos a redes sociales-->
                 <h3>¡Seguinos en nuestras redes!</h3>
                 <a href="" class="redes2"><i class="fa-brands fa-facebook" style="color: rgb(58, 27, 2);"></i></a>
                 <a href="" class="redes2"><i class="fa-brands fa-instagram" style="color: rgb(58, 27, 2);"></i></a>
