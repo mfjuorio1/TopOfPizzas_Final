@@ -371,6 +371,7 @@ footer, .address{
     display: inline-flexbox;
     justify-content: center;
     margin-left: 18%;
+    cursor:pointer;
 }
 
 a:visited {
